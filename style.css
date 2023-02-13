@@ -15,6 +15,7 @@ header{
    text-decoration: none;
    font-family: 'Times New Roman', Times, serif;
    margin-right: 75px;
+   transition: 0.5s ease-in-out;
    }
    header a:hover{
     color: aliceblue;
