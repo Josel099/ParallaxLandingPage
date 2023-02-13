@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*font is used in body tag because it will affect  defaultly all the other tags */
+    font-family: Trebuchet MS; /*font is used in body tag because it will affect  defaultly all the other tags */
 }
 header{
     position: absolute;
@@ -26,7 +26,7 @@ main{
     background-size: cover;
     background-position: center;
     display: flex;
-    background-attachment: fixed;
+    background-attachment: fixed; /*used to create parralx effect*/
     justify-content: center;
     align-items: center;/*used to align the "explore world" to center*/
    
