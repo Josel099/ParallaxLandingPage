@@ -1,19 +1,39 @@
 body{
     margin: 0;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*font is used in body tag because it will affect  defaultly all the other tags */
 }
 header{
     position: absolute;
+    top: 20px;
+    /* right: 0; */
+    width: 100%;
+    text-align: right;
+   }
+   header a{
+    color: rgb(255, 255, 255,0.7);
+   font-size: 20px;
+   text-decoration: none;
+   font-family: 'Times New Roman', Times, serif;
+   margin-right: 75px;
    
-}
+
+   }
 main{
     background-image:url("./images/large.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;/*used to align the "explore world" to center*/
+   
     /* background-size: contain;
    background-repeat: no-repeat; */
 }
 main h1{
     margin: 0;
+    position: absolute;
+    /* top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  ->another method  to align the "explore world" to center*/
 }
