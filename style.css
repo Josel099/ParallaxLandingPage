@@ -1,6 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     font-family: Trebuchet MS; /*font is used in body tag because it will affect  defaultly all the other tags */
+    color: rgba(5, 14, 10);
 }
 header{
     position: absolute;
