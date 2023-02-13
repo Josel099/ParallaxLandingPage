@@ -15,8 +15,9 @@ header{
    text-decoration: none;
    font-family: 'Times New Roman', Times, serif;
    margin-right: 75px;
-   
-
+   }
+   header a:hover{
+    color: aliceblue;
    }
 main{
     background-image:url("./images/large.jpg");
