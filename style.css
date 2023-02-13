@@ -26,6 +26,7 @@ main{
     background-size: cover;
     background-position: center;
     display: flex;
+    background-attachment: fixed;
     justify-content: center;
     align-items: center;/*used to align the "explore world" to center*/
    
