@@ -33,6 +33,8 @@ main{
 main h1{
     margin: 0;
     position: absolute;
+    font-size: 60px;
+    mix-blend-mode: overlay; /* unique property used to mix an element with the bg . return an amazing view*/
     /* top:50%;
     left: 50%;
     transform: translate(-50%,-50%);  ->another method  to align the "explore world" to center*/
