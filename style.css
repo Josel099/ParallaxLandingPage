@@ -7,7 +7,7 @@ body{
     color: rgba(5, 14, 10);
 }
 header{
-    position: absolute;
+    position: fixed;
     top: 20px;
     /* right: 0; */
     width: 100%;
